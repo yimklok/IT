@@ -1,0 +1,356 @@
+/* 4K */
+@media (max-width: 2560px)
+{
+    .swiper{
+        height: 140vh;
+    }
+}
+/* XXL */
+@media (max-width: 1799.98px)
+{
+    .content{
+        max-width: 1320px;
+    }
+    .swiper{
+        height: 120vh;
+    }
+    .header .navigation{
+        padding: 0;
+    }
+
+
+    .main-content .detial{
+        height: 560px;
+    }
+}
+/* Extra Large */
+@media (max-width: 1399.98px)
+{
+    .content{
+        max-width: 1140px;
+    }
+    .swiper{
+        height: 100vh;
+    }
+    .navbar ul a{
+        font-size: 12px;
+        padding: 11.2px 0;
+        font-weight: 300;
+        margin: 0 .7rem;
+    }
+    .right-nav .laguage img{
+        margin: 0;
+    }
+
+
+
+
+    .main-content .detial{
+        height: 450px;
+    }
+}
+/* Large */
+@media (max-width: 1199.98px)
+{
+    .content{
+        max-width: 960px;
+    }
+    .swiper{
+        height: auto;
+    }
+    .navbar ul a{
+        font-size: 11px;
+        padding: 11.2px 0;
+        font-weight: 200;
+        margin: 0 .4rem;
+    }
+
+
+
+
+
+    .main-content .detial{
+        height: 390px;
+    }
+
+
+
+    .mobile .photo img{
+        height: 80%;
+        
+    }
+    .m1{
+        padding-bottom: 20px !important;
+    }
+    .macbook .image{
+        height: 400px !important;
+    }
+    .macbookpro1{
+        height: 300px !important;
+    }
+}
+/* Medium */
+@media (max-width: 991.98px)
+{
+    .content{
+        max-width: 720px;
+    }
+    .navigation .navbar{
+        overflow-y: scroll;
+        position: absolute;
+        top: 44px;
+        left: 0;
+        height: 90vh;
+        background-color: rgb(248, 248, 248);
+        flex-direction: column;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all .5s;
+    }
+    .navigation .navbar::-webkit-scrollbar{
+        width: .5rem;
+    }
+    .navigation .navbar::-webkit-scrollbar-track{
+        background: transparent;
+    }
+    .navigation .navbar::-webkit-scrollbar-thumb {
+        background: rgb(201, 49, 168);
+        border-radius: 5rem;
+    }
+    .navigation .navbar.active-navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .navbar ul{
+        margin: 0 auto;
+        max-width: 720px;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .navbar li{
+        margin: 1rem 0 0 1rem;
+    }
+    .navbar ul a{
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: rgb(93, 93, 93);
+        padding: 11.2px 0;
+    }
+    .about .more-about,.business .more-business{
+        margin-top: 10px;
+        border-radius: 5px;
+        position: static;
+        transition: all .5s;
+        display: none;
+    }
+    .about:hover .more-about, .business:hover .more-business{
+        display: block;
+        width: 100%;
+    }
+
+
+    .navbar .right-nav{
+        margin-top: 30px;
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn button{
+        width: 135px;
+        height: 45px;
+        background-color: green;
+        border-radius: 10px;
+    }
+
+    #menu-btn{
+        display: block;
+    }
+    .header{
+        height: 44px;
+    }
+    .footer .box-footer{
+        flex-direction: column;
+    }
+    .box-footer .box{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+    .main-content .heading h2,p{
+        font-size: 3rem;
+    }
+    .main-content .detial
+    {
+        height: 1050px;
+        flex-direction: column;
+    }
+    .detial .left-detial
+    {
+        height: 35%;
+    }
+    .detial .left-detial{
+        flex-direction: row-reverse;
+    }
+    .left-detial .text-detial,.text-top-detial{
+        flex: 1 1 60%;
+    }
+    .left-detial .image,.image-top-detial{
+        flex: 1 1 40%;
+    }
+
+
+    .detial .right-detial{
+        height: 65%;
+    }
+    .detial .left-detial,.detial .right-detial{
+        width: 100%;
+    }
+
+
+
+    .mobile-banking{
+        flex-direction: column;
+    }
+    .mobile-banking .moblie-app{
+        width: 100%;
+    }
+    .mobile-banking .text-mac{
+        width: 40% !important;
+    }
+    .mobile-banking .mobile-img{
+        width: 100%;
+    }
+    .mobile .photo img{
+        height: 60%;
+        
+    }
+     
+
+
+
+
+
+    .news{
+        padding: 0 15px;
+    }
+    .main-content .box{
+        width: 49%;
+        margin-bottom:2%; 
+    }
+}
+/* Small */
+@media (max-width: 767.98px)
+{
+    .content, .navbar ul{
+        max-width: 540px;
+    }
+    .footer .contect-media img{
+        width: 40px;
+        padding: 3.2px 8px;
+    }
+    .more-about .box-content ,.more-business .box-content
+    {
+        max-width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+
+
+    .main-content .detial
+    {
+        height: 800px;
+    }
+
+
+
+    
+    .mobile-banking .mobile-img{
+        position: relative;
+    }
+
+    .mobile .photo img{
+        height: 50%; 
+    }
+
+    .macbook .image{
+        height: 300px !important;
+    }
+
+
+
+    .news{
+        padding-top: 2rem;
+    }
+
+    .growth{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-growth{
+        padding-bottom: 2rem;
+    }
+    .main-content .box{
+        width: 100%;
+        gap: 0;
+        margin-bottom:4%; 
+    }
+    .growth .image{
+        flex: 1 1 100%;
+    }
+    .growth .text{
+        flex: 1 1 100%;
+    }
+}
+/* Extra small */
+@media (max-width: 575.98px)
+{
+    .content, .navbar ul{
+        max-width: 100%;
+    }
+    .main-content .detial
+    {
+        height: auto;
+    }
+    .detial .left-detial{
+        flex-direction: column-reverse;
+    }
+    .top-detial,.buttum-dedial{
+        flex-direction: column;
+    }
+
+    .mobile-banking{
+        padding: 80px 15px 60px;
+    }
+    .mobile-banking .moblie-app h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .mobile-banking .moblie-app .main-app .download-app{
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+    }
+    .mobile-banking .mobile-img{
+        width: 100%;
+        height: 300px;
+    }
+    .mobile .photo img{
+        height: 40%;
+    }
+
+    .macbook .image{
+        width: 100% !important;
+        height: auto !important;
+        bottom: 30px !important;
+    }
+    
+}
